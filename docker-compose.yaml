@@ -1,0 +1,11 @@
+services:
+  php71:
+    image: php:7.1-cli
+    tty: true
+    volumes:
+      - .:/app
+  php72:
+    image: php:7.2-cli
+    tty: true
+    volumes:
+      - .:/app
